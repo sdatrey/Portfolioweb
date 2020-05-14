@@ -1,16 +1,8 @@
-$(document).ready(function() {
+document.getElementById('#ln').click( function(){
+    window.open('https://www.linkedin.com/in/shourya-dev-atrey-aa8049194/', '_blank');
 
+});
+document.getElementById('#git').click( function(){
+    window.open('https://github.com/sdatrey', '_blank');
 
-    $(window).scroll(function() {    
-        var scroll = $(window).scrollTop();
-    
-         //>=, not <=
-        if (scroll >= 60) {
-            //clearHeader, not clearheader - caps H
-            $(".navbar").addClass("bg-light");
-        } else {
-          $(".navbar").removeClass("bg-light");
-        }
-    });     
-   
-    });
+});
