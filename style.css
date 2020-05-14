@@ -4,6 +4,13 @@ body{
   background: #DAE3E7;
   font-size: 16px;
 }
+img{
+  border-radius: 50%;
+  margin-right: 30px;
+  height: 160px;
+  width: 150px;
+  float: left;
+}
 .jumbotron{
   padding: 30px 0;
   background: #f5f5f5;
@@ -62,4 +69,71 @@ body{
   margin-bottom: 30px;
   color: #545e69;
   font-size: 24px;
+}
+.education .item .title {
+  font-size: 16px;
+  margin-top: 0;
+  color: #778492;
+  font-weight: bold;
+}
+
+.education .item .university {
+  font-family: "Lato", arial, sans-serif;
+  font-size: 13px;
+  color: #999;
+  font-weight: 600;
+  padding-left: 25px;
+}
+
+.education .item .university .year {
+  color: #b0b7bf;
+  font-weight: 500;
+}
+.skill .item .skill-list{
+  list-style-type: none;
+  color: #778492;
+  font-size: larger;
+}
+
+.skill .item .skill-list li{
+ margin: 5px;
+}
+.experience .item .title {
+  font-size: 20px;
+  margin-top: 0;
+  color: #778492;
+  font-weight: bold;
+}
+.experience .item .year {
+  color: #b0b7bf;
+  font-weight: 500;
+}
+.experience .item .place {
+  color: #b0b7bf;
+  font-weight: 500;
+}
+.experience .item  p{
+  margin-bottom: 200px;
+}
+
+.language .item .language-list{
+  list-style-type: none;
+  color: #778492;
+  font-size: larger;
+}
+.language .item .language-list li{
+  margin-top: 7px;
+ }
+ .language .item .language-list .level{
+  color: #999;
+ }
+.contact .content .title{
+  font-size: 20px;
+  margin-top: 0;
+  color: #778492;
+  font-weight: bold;
+}
+.contact .content .address{
+  font-size: 18px;
+  color: #999;
 }
