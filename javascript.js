@@ -6,3 +6,7 @@ document.getElementById('#git').click( function(){
     window.open('https://github.com/sdatrey', '_blank');
 
 });
+document.getElementById('#work').click( function(){
+    window.open('https://conatus.netlify.app/', '_blank');
+
+});

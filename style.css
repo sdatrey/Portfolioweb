@@ -4,7 +4,7 @@ body{
   background: #DAE3E7;
   font-size: 16px;
 }
-img{
+.profile-content img{
   top: 0;
   border-radius: 50%;
   margin-right: 30px;
@@ -96,9 +96,6 @@ img{
   font-size: larger;
 }
 
-.skill .item .skill-list li{
- margin: 5px;
-}
 .experience .item .title {
   font-size: 20px;
   margin-top: 0;
@@ -121,10 +118,8 @@ img{
   list-style-type: none;
   color: #778492;
   font-size: larger;
+  
 }
-.language .item .language-list li{
-  margin-top: 7px;
- }
  .language .item .language-list .level{
   color: #999;
  }
@@ -138,9 +133,28 @@ img{
   font-size: 18px;
   color: #999;
 }
+.about .content{
+  margin-left: 45px;
+}
+.education .content{
+  margin-left: 45px;
+}
+.experience .content{
+  margin-left: 45px;
+}
+.contact .content{
+  margin-left: 45px;
+}
+.skill .skill-list img{
+  size: 100px;
+
+  margin: 20px;
+}
+
 @media (max-width: 767.98px) {
   
 .profile-image {
+
     float: none ;
     margin: 0 auto;
   }
@@ -148,10 +162,14 @@ img{
     float: none ;
     text-align: center;
   }
+  .skill .skill-list img{
+    float: none;
+  }
+  
 
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1140px) {
   .container {
     width: 1360px;
     max-width: inherit;
