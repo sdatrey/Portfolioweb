@@ -71,6 +71,10 @@ body{
   color: #545e69;
   font-size: 24px;
 }
+.education .content {
+  margin: 10px;
+  
+}
 .education .item .title {
   font-size: 16px;
   margin-top: 0;
@@ -84,6 +88,7 @@ body{
   color: #999;
   font-weight: 600;
   padding-left: 25px;
+  letter-spacing: 1px;
 }
 
 .education .item .university .year {
@@ -111,7 +116,7 @@ body{
   font-weight: 500;
 }
 .experience .item  p{
-  margin-bottom: 200px;
+  margin-bottom: 250px;
 }
 
 .language .item .language-list{
@@ -146,12 +151,12 @@ body{
   margin-left: 45px;
 }
 .skill .skill-list img{
-  size: 100px;
+  size: 20px;
 
   margin: 20px;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
   
 .profile-image {
 
